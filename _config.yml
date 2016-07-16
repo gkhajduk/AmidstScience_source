@@ -5,7 +5,7 @@
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://gkhajduk.github.io"
-baseurl: ""
+baseurl: ''
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -14,23 +14,29 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Amidst Science
+title: Gabriela K Hajduk
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Gabriela K Hajduk's personal website
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
   Blog:
-  Research:
+  About: "about"
+  Bio: "bio"
+  Research Activities:
+    - Research: 
+    - Publications:
+    - Presentations:
+    - Funding & Awards:
+    - Teaching:
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+  CV:
+  Contact: "contact"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -42,7 +48,7 @@ avatar: "/img/avatar-icon.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Gabriela K Hajduk
-  email: "gkhajduk@gmail.com"
+  email: "g.k.hajduk@sms.ed.ac.uk"
   #facebook: yourname  # eg. daattali
   github: gkhajduk    # eg. daattali
   twitter: AmidstScience   # eg. daattali
@@ -71,17 +77,21 @@ url-pretty: "gkhajduk.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
 
+##--------------------------------------------------------------------------
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "UK/London"
+timezone: "Europe/London"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
+safe: false
+
 kramdown:
   input: GFM
+  auto_ids: true # Auto-generate ID's for headings
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
