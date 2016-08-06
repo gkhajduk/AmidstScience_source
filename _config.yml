@@ -27,11 +27,11 @@ navbar-links:
   About: "about"
   Bio: "bio"
   Research Activities:
-    - Research: 
-    - Publications:
-    - Presentations:
-    - Funding & Awards:
-    - Teaching:
+    - Research: "research"
+    - Publications: "publications"
+    - Presentations: "presentations"
+    - Funding & Awards: "funding"
+    - Teaching: "teaching"
   Resources:
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
@@ -88,6 +88,8 @@ permalink: /:year-:month-:day-:title/
 paginate: 5
 
 safe: false
+plugins_dir:  ./_plugins
+
 
 kramdown:
   input: GFM
@@ -163,8 +165,7 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
-gems:
-  - jekyll-paginate
+gems: [jekyll-paginate, target_anchor]
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
