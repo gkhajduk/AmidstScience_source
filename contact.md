@@ -16,5 +16,3 @@ Work: <g.k.hajduk@sms.ed.ac.uk>
 Personal: <gkhajduk@gmail.com>
 
 You can also get in touch through [Twitter](https://twitter.com/AmidstScience) and find me on [Research Gate](https://www.researchgate.net/profile/Gabriela_Hajduk), as well as [LinkedIn](https://www.linkedin.com/in/gabriela-karolina-hajduk-99441639).
-
-{{ "example" | open_in_new_window: https://twitter.com/AmidstScience }}

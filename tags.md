@@ -1,38 +1,48 @@
-<!-- Get the tag name for every tag on the site and set them
-to the `site_tags` variable. -->
-{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+---
+layout: page
+title: Blog Archive
+subtitle: Browse all blog posts by tag
+---
 
-<!-- `tag_words` is a sorted array of the tag names. -->
-{% assign tag_words = site_tags | split:',' | sort %}
+<div class='list-group'>
+  {% assign tags_list = site.tags %}
 
-
-<!-- List of all tags -->
-<ul class="tags">
-  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
-    <li>
-      <a href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }}
-        <span>({{ site.tags[this_word].size }})</span>
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %}
+      <a href="/tags#{{ tag }}-ref" class='list-group-item'>
+        {{ tag }} <span class='badge'>{{ site.tags[tag].size }}</span>
       </a>
-    </li>
-  {% endunless %}{% endfor %}
-</ul>
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_list %}
+      <a href="/tags#{{ tag[0] }}-ref" class='list-group-item'>
+        {{ tag[0] }} <span class='badge'>{{ tag[1].size }}</span>
+      </a>
+    {% endfor %}
+  {% endif %}
 
-<!-- Posts by Tag -->
-<div>
-  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
-    <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
-    {% for post in site.tags[this_word] %}{% if post.title != null %}
-      <div>
-        <span style="float: left;">
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </span>
-        <span style="float: right;">
-          {{ post.date | date_to_string }}
-        </span>
-      </div>
-      <div style="clear: both;"></div>
-    {% endif %}{% endfor %}
-  {% endunless %}{% endfor %}
+  {% assign tags_list = nil %}
 </div>
+
+
+{% for tag in site.tags %}
+  <h2 class='tag-header' id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+  <ul>
+    {% assign pages_list = tag[1] %}
+
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if group == null or group == node.group %}
+          {% if page.url == node.url %}
+          <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+          {% else %}
+          <li><a href="{{node.url}}">{{node.title}}</a></li>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+  </ul>
+{% endfor %}

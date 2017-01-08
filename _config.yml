@@ -24,6 +24,7 @@ description: Gabriela K Hajduk's personal website
 # List of links in the navigation bar
 navbar-links:
   Blog:
+  Archive: "tags"
   About: "about"
   Bio: "bio"
   Research Activities:
@@ -33,9 +34,12 @@ navbar-links:
     - Funding & Awards: "funding"
     - Teaching: "teaching"
   Resources:
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  CV:
+    - Analysis - R: "404"
+    - Writing - LaTeX: "404"
+    - Writing - Markdown: "404"
+    - Version Control - Git: "404"
+    - Website - Jekyll: "404"
+  CV: "404"
   Contact: "contact"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -48,11 +52,11 @@ avatar: "/img/avatar-icon.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Gabriela K Hajduk
-  email: "g.k.hajduk@sms.ed.ac.uk"
+  email: "gkhajduk@gmail.com"
   #facebook: yourname  # eg. daattali
   github: gkhajduk    # eg. daattali
   twitter: AmidstScience   # eg. daattali
-  linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
+  linkedin: https://uk.linkedin.com/in/gabriela-karolina-hajduk-99441639  # eg. "pub/dean-attali/8/946/143"
   #stackoverflow: yourlink  # eg. "3943160/daattali"
  
 # Select which links to show in the footer
@@ -62,7 +66,7 @@ footer-links-active:
   email: true
   twitter: true
   github: true
-  linkedin: false
+  linkedin: true
   stackoverflow: false
 
 # How to display the link to the website in the footer
@@ -89,6 +93,7 @@ paginate: 5
 
 safe: false
 plugins_dir:  ./_plugins
+future: false
 
 
 kramdown:

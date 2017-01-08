@@ -15,9 +15,9 @@ I have taught on two fieldcourses, **Field Zoology 3** (2015 and 2016) and **Fie
 
 My role is to assist the students throughout the course, aid them in identification, give feedback on study design and supervise a group throughout their project. I also prepare and present a series of short "How not to give a talk" talks.
 
-**Field Ecology (ECSC08007)** - this week and a half long course with a broad aim to "familiarise students with the flora and fauna of Scotland". The emphasis is put on learning to identify terrestrial and aquatic organisms and plants. Students then use those skills to investigate various ecological processes in a variety of semi-natural and managed ecosystems (woodlands, heath/moorland, grassland, freshwater streams). 
+**Field Ecology (ECSC08007)** - this is a week and a half long course with a broad aim to "familiarise students with the flora and fauna of Scotland". The emphasis is put on learning to identify terrestrial and aquatic organisms and plants. Students then use those skills to investigate various ecological processes in a variety of semi-natural and managed ecosystems (woodlands, heath/moorland, grassland, freshwater streams). 
 
-My role here is to assist the students in identification of plants and animals, both in the field and in the lab, as well as to teach them a variety of different sampling methods. I also assess and mark their work daily, providing immediate feedback on write-ups. I also teach how to design, execute and analyse simple field experiments in ecology.
+My role here is to assist the students in identification of plants and animals, both in the field and in the lab, as well as to teach them a variety of different sampling methods. I also assess and mark their work daily, providing immediate feedback on write-ups. I teach how to design, execute and analyse simple field experiments in ecology.
 
 ### Questions? Get in touch!
 

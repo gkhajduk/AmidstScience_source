@@ -7,8 +7,8 @@ tags: fairywrens
 
 #### Selected Talks
 
-- Inbreeding and infidelity in a cooperatively breeding bird. *ISBE 2016: 16th congress of the International Society for Behavioral Ecology*. Exeter, UK
-- Genetic basis of Seychelles warblers’ personalities. *The Genetics Society Summer Studentship Workshops*, Norwich, UK
+- Inbreeding and infidelity in a cooperatively breeding bird. *ISBE 2016: 16th congress of the International Society for Behavioral Ecology*. Exeter, UK (2016)
+- Genetic basis of Seychelles warblers’ personalities. *The Genetics Society Summer Studentship Workshops*, Norwich, UK (2013)
 
 #### Posters
 
