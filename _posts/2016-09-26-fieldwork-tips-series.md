@@ -19,12 +19,14 @@ Fieldwork can be hugely rewarding, fun and enjoyable. It can be easy, but it can
  - [Fieldwork Tips: Logistics]({% post_url 2016-10-10-fieldwork-tips-logistics %})
  - [Fieldwork Tips: Arrange before you go]({% post_url 2016-10-17-fieldwork-tips-before-you-go %})
  - [Fieldwork Tips: Packing List]({% post_url 2016-10-23-fieldwork-tips-packing-list %})
- - Fieldwork Tips: Dress for Success!
+ - [Fieldwork Tips: Dress for Success! Part 1]({% post_url 2017-02-05-fieldwork-tips-dress-for-success-p1 %})
+ - [Fieldwork Tips: Dress for Success! Part 2]({% post_url 2017-02-06-fieldwork-tips-dress-for-success-p2 %})
  - Fieldwork Tips: While in the field
  - Fieldwork Tips: Health & Safety
- - Fieldwork Tips: Go paperless! Or not
+ - [Fieldwork Tips: Go paperless! Or not]({% post_url 2017-02-11-fieldwork-tips-go-paperless %})
  - Fieldwork Tips: Take care of yourself & enjoy
  
+
  **Bonus post:** 
  
  - Emotional Labour & Self-Care
